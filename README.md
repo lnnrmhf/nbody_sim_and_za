@@ -1,7 +1,7 @@
 # 3D N-Body Simulations and the Zel'dovich Approximation
 
 **Final project — Course: Cosmic Structures: Theory, Numerics, and Statistics**  
-Institute for Astrophysics, University of Vienna — June 2026
+Institute for Astrophysics, University of Vienna — July 2026
 
 Prof. Oliver Hahn & Dr. Thomas Flöss
 
