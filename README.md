@@ -12,7 +12,7 @@ Prof. Oliver Hahn & Dr. Thomas Flöss
 In this work, a simple N-body simulation code is implemented using Zel'dovich-approximation (ZA) initial conditions and a symplectic leapfrog integrator with gravitational acceleration computed via the non-uniform fast Fourier transform (NUFFT). The goal is to analyze the difference between the full N-body evolution and the pure Zel'dovich-approximation evolution of a Gaussian random field over time and to identify the scales and epochs at which the Zel'dovich approximation breaks down and the full non-linear dynamics become necessary to correctly capture structure growth.
 
 <p align="center">
-  <img src="figures/structures.png" width="600" title="Evolution of an initial Gaussian field">
+  <img src="figures/structures.png" width="800" title="Evolution of an initial Gaussian field">
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@ In this work, a simple N-body simulation code is implemented using Zel'dovich-ap
 The two solutions agree closely at early times but diverge after shell-crossing. The leapfrog integrator produces well-defined halos clustered along filaments, while particles in the ZA case remain significantly more diffuse — the Zel'dovich approximation applies no gravitational force after the initial displacement is set and particles simply continue to stream along their initial linear trajectories. This is confirmed quantitatively by the evolution of the standard deviation of the density field, which grows much more strongly for the leapfrog integrator after shell-crossing, and by the power spectrum, which shows that ZA fails to reproduce power at small scales as soon as they become non-linear, with the discrepancy progressively extending to larger scales as time progresses.
 
 <p align="center">
-  <img src="figures/powerspectrum.png" width="600" title="Evolution of the power spectrum">
+  <img src="figures/powerspectrum.png" width="400" title="Evolution of the power spectrum">
 </p>
 
 <p align="center">
